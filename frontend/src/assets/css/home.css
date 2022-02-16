@@ -1,0 +1,57 @@
+.icon {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -25px;
+        font-size: 16px;
+
+    }
+
+    .leftcolumn {
+        float: left;
+        width: 30%;
+
+    }
+
+    .rightcolumn {
+        float: left;
+        width: 70%;
+        padding-left: 20px;
+    }
+
+    .tag {
+        margin-top: 20px;
+        font-size: large;
+    }
+
+
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+    }
+
+
+    @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    .mt-100 {
+        margin-top: 100px
+    }
+
+    .profile img {
+        width: 68px;
+        height: 68px;
+        border-radius: 50%
+    }
+
+    .card-body {
+        position: relative;
+        bottom: 35px
+    }
